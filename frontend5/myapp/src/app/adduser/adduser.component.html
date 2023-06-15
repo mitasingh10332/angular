@@ -1,0 +1,12 @@
+<br><br><br>
+
+<form #f1="ngForm" (ngSubmit)="newUser(f1.value)">
+    ID<input name="_id" ngModel><br>
+    password<input name="password" ngModel><br>
+    Name<input name="name" ngModel><br>
+    role<input name="role" ngModel><br>
+    <button>AddUser</button>
+</form>
+<div>
+    {{result}}
+</div>

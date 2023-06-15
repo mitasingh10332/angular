@@ -1,0 +1,12 @@
+
+
+   <br><br><br>
+<input type="button" value="Show" (click)="getData()"><br>
+<!-- <a routerLink="adduser">create New user</a><br> -->
+
+<div *ngFor="let user of data">
+  ID : {{user._id}}<br>
+  password : {{user.Password}}<br>
+  Name : {{user.name}}<br>
+  Role:{{user.role}}<br>
+</div>
